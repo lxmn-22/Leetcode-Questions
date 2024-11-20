@@ -29,10 +29,11 @@ class TakeKofEachCharacterFromLeftAndRight {
         for (char c : s.toCharArray()) {
             d[c - 'a']++;
         }
-        for (int i = 0; i < 3; i++)
+        for (int i = 0; i < 3; i++) {
             if ((d[i] -= k) < 0) {
                 return -1;
             }
+        }
 
         int m = 0;
         int l = 0;
