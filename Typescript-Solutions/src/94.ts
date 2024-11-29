@@ -33,23 +33,23 @@ Output: [1]
  * }
  */
 
-function inorderTraversal(root: TreeNode | null): number[] {
-    if(!root) {
-        return [];
-    }
+// function inorderTraversal(root: TreeNode | null): number[] {
+//     if(!root) {
+//         return [];
+//     }
 
-    let current = root;
-    let stash = [];
-    let result = [];
+//     let current = root;
+//     let stash = [];
+//     let result = [];
 
-    while(stash.length || current) {
-        while(current) {
-            stash.push(current);
-            current = current.left;
-        }
-        let node = stash.pop();
-        result.push(node.val);
-        current = node.right;
-    }
-    return result;
-};
+//     while(stash.length || current) {
+//         while(current) {
+//             stash.push(current);
+//             current = current.left;
+//         }
+//         let node = stash.pop();
+//         result.push(node.val);
+//         current = node.right;
+//     }
+//     return result;
+// };
