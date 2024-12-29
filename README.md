@@ -17,19 +17,3 @@
 | [Python Solutions](https://github.com/lxmn-22/Leetcode-Questions/tree/main/Python-Solutions)| |
 | [Swift Solutions](https://github.com/lxmn-22/Leetcode-Questions/tree/main/Swift-Solutions)| **Easy** <br> **Medium** |
 | [TypeScript Solutions](https://github.com/lxmn-22/Leetcode-Questions/tree/main/Typescript-Solutions)| |
-
-## Contributing
-
-If you would like to contribute to this repository, kindly follow the instructions provided in [Contributing.md](https://github.com/lxmn-22/Leetcode-Questions/blob/main/Contributing.md).
-
-<details>
-
-<summary>
-    Thanks to all Contributors!
-</summary>
-
-<br>
-
-![Contributers](https://contrib.rocks/image?repo=lxmn-22/Leetcode-Questions)
-
-</details>
