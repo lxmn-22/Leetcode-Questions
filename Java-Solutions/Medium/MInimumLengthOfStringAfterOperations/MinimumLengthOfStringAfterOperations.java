@@ -1,4 +1,4 @@
-package Medium.MinimumLengthOfStringAfterOperations;
+package Medium.MInimumLengthOfStringAfterOperations;
 
 /*
  * PROBLEM: 3223: Minimum Length of String After operations
