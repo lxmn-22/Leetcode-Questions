@@ -1,4 +1,4 @@
-package Easy;
+package Easy.LongestStrictlyIncreasingOrStrictlyDecreasingSubarray;
 
 /*
 PROBLEM: 3105: Longest Strictly Increasing or Strictly Decreasing Subarray
