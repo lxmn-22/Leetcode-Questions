@@ -17,3 +17,4 @@
 | [Python Solutions](https://github.com/lxmn-22/Leetcode-Questions/tree/main/Python-Solutions)| |
 | [Swift Solutions](https://github.com/lxmn-22/Leetcode-Questions/tree/main/Swift-Solutions)| **Easy** <br> **Medium** |
 | [TypeScript Solutions](https://github.com/lxmn-22/Leetcode-Questions/tree/main/Typescript-Solutions)| |
+| [Rust-Solution](https://github.com/lxmn-22/Leetcode-Questions/tree/main/Rust-Solutions)| **Easy** <br> **Medium** |
