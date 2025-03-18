@@ -1,0 +1,22 @@
+fn get_row(row_index: i32) -> Vec<i32> {
+    let mut prev_cell: Vec<i32> = vec![1];
+
+    for _ in 0..row_index {
+        let next_length = prev_cell.len() + 1;
+        let mut curr_cell = vec![0; next_length];
+        for j in 0..next_length {
+            if j == 0 || j == next_length - 1 {
+                curr_cell[j] = 1;
+            } else {
+                curr_cell[j] = prev_cell[j] + prev_cell[j - 1];
+            }
+        }
+        prev_cell = curr_cell;
+    }
+    prev_cell
+}
+
+fn main() {
+    let row = 5;
+    println("{}", get_row(row));
+}
