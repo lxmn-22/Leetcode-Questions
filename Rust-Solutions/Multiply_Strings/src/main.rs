@@ -11,7 +11,7 @@ Example 2:
 Input: num1 = "123", num2 = "456"
 Output: "56088" */
 
-fn multiply(num1: String, num2: String) -> String {
+fn multiply_strings(num1: String, num2: String) -> String {
         if num1 == "0" || num2 == "0" {
         return "0".to_string();
     }
@@ -44,8 +44,7 @@ fn multiply(num1: String, num2: String) -> String {
 }
 
 fn main() {
-    let num1 = "2";
-    let num2 = "3";
-    let result = multiply(num1, num2);
-    println("{}", result);
+    let s1 = "25".to_string();
+    let s2 = "2".to_string();
+    println!("The result is: {}", multiply_strings(s1, s2))
 }
